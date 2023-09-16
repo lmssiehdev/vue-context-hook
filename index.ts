@@ -1,3 +1,3 @@
-export const add = (a: number, b: number) => {
-  return a + b
-}
+import { createContext } from "./use-context";
+
+export { createContext };
