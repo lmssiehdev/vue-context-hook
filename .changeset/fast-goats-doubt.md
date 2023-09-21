@@ -1,5 +1,5 @@
 ---
-"vue-use-context": publish
+"vue-context-hook": patch
 ---
 
 initial version
