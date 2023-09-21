@@ -1,5 +1,5 @@
 ---
-"my-package": patch
+"vue-use-context": publish
 ---
 
-Added the add function
+initial version

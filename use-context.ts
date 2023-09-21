@@ -15,7 +15,7 @@ function createContext<T>(defaultValue: T) {
     props: ["value"],
     setup(props, { slots }) {
       const passedValue =
-        props.value === undefined ? defaultValue : props.value;
+        props.value === undefined ? defaultValue : (props.value as T);
       provide(symbol, passedValue);
 
       return () =>
