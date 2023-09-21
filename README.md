@@ -20,6 +20,8 @@ First, create a context by calling createContext and defining an initial context
 
 ```ts
 // count-context.ts
+import { createContext } from "vue-context-hook";
+
 const countContext = createContext({
   count: ref(0),
 });
