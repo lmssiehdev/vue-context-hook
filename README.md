@@ -1,18 +1,18 @@
 # vue-use-context
 
-inspired by useContext hooks in react
+inspired by createContext and useContext hooks in react
 
 ## Install
 
 ```bash
-pnpm add vue-use-context
+pnpm add vue-context-hook
 # or
-npm install vue-use-context
+npm install vue-context-hook
 ```
 
 ## Usage
 
-Using vue-use-context is quite straightforward, especially if you are familiar with React's useContext API. Here's a step-by-step guide on how to use it:
+Using vue-context-hook is quite straightforward, especially if you are familiar with React's useContext API. Here's a step-by-step guide on how to use it:
 
 ### 1. Create a Context
 
